@@ -32,8 +32,8 @@ Add Composer's global vendor bin directory to your system PATH so the `laravel` 
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd Laravel Tutorial Todo
+git clone https://github.com/vanlalruata/Laravel-Tutorial-Todo.git
+cd Laravel-Tutorial-Todo
 ```
 
 ### 2. Install PHP dependencies with Composer
