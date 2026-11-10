@@ -9,12 +9,22 @@ class Task extends Model
 {
     //
 
-    protected $fillable = ['user_id', 'title', 'description', 'is_completed'];
+    protected $fillable = [
+        'user_id',
+        'title',
+        'description',
+        'project',
+        'due_at',
+        'is_completed',
+        'completed_at',
+    ];
 
-    protected function casts():array
+    protected function casts(): array
     {
         return [
             'is_completed' => 'boolean',
+            'due_at' => 'datetime',
+            'completed_at' => 'datetime',
         ];
     }
 

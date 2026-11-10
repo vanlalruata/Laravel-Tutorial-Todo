@@ -1,6 +1,6 @@
-import Http from './Http';
+import Http from './Http'
 const Foundation = {
     Http: Object.assign(Http, Http),
-};
+}
 
-export default Foundation;
+export default Foundation
