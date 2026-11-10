@@ -26,7 +26,6 @@ composer global require laravel/installer
 
 Add Composer's global vendor bin directory to your system PATH so the `laravel` command is available.
 
-
 ## Installation
 
 ### 1. Clone the repository
@@ -74,12 +73,12 @@ npm run build
 
 ## Available Scripts
 
-| Command | Description |
-|---------|-------------|
-| `composer run dev` | Start the Laravel dev server, queue listener, and Vite dev server concurrently |
-| `npm run build` | Build production assets |
-| `php artisan migrate` | Run database migrations |
-| `php artisan test` | Run the test suite |
+| Command               | Description                                                                    |
+| --------------------- | ------------------------------------------------------------------------------ |
+| `composer run dev`    | Start the Laravel dev server, queue listener, and Vite dev server concurrently |
+| `npm run build`       | Build production assets                                                        |
+| `php artisan migrate` | Run database migrations                                                        |
+| `php artisan test`    | Run the test suite                                                             |
 
 ## License
 

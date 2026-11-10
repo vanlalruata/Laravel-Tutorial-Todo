@@ -1,8 +1,8 @@
-import TaskController from './TaskController'
-import Settings from './Settings'
+import TaskController from './TaskController';
+import Settings from './Settings';
 const Controllers = {
     TaskController: Object.assign(TaskController, TaskController),
-Settings: Object.assign(Settings, Settings),
-}
+    Settings: Object.assign(Settings, Settings),
+};
 
-export default Controllers
+export default Controllers;

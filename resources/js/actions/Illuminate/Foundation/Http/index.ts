@@ -1,6 +1,6 @@
-import HealthCheck from './HealthCheck'
+import HealthCheck from './HealthCheck';
 const Http = {
     HealthCheck: Object.assign(HealthCheck, HealthCheck),
-}
+};
 
-export default Http
+export default Http;
